@@ -1,0 +1,81 @@
+.wrap {
+    padding: 0;
+    margin: 0;
+}
+
+.todo {
+    position: relative;
+    background-color: darkgray;
+    left: 35%;
+    height: 100%;
+    width: 30%;
+    list-style-type: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.todo-list {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-btn {
+    position: relative;
+    display: flex;
+}
+
+.todo li {
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    font-size: 20px;
+}
+
+.todo-btns {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 0;
+}
+
+.active-edit {
+    position: relative;
+    display: flex;
+    height: 100%;
+    margin: 20px;
+}
+
+.active-edit input {
+    position: relative;
+    border: 2px solid #A9D6FF;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 0 5px;
+    outline: none;
+    box-shadow: 3px 2px 5px #A8CEF1;
+}
+
+.save-btn {
+    position: relative;
+    display: flex;
+    background-color: #A9D6FF;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.save-btn:hover {
+    box-shadow: 2px 2px 3px #92caff;
+}
+.save-btn:active {
+    background-color: #5DADE2;
+}

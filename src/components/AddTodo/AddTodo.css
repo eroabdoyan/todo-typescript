@@ -1,0 +1,28 @@
+.add-todo-form {
+    padding: 10px;
+}
+
+.add-todo-form input{
+    border: 2px solid #A9D6FF;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+    padding: 0 5px;
+    outline: none;
+    box-shadow: 5px 5px 5px #92caff;
+    font-size: 15px;
+}
+
+.add-todo-form button {
+    background-color: #88c6ff;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #92caff;
+}
+
+.add-todo-form button:active {
+    background-color: #6db3f5;
+}

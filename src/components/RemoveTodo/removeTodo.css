@@ -1,0 +1,16 @@
+.btn-remove {
+    background-color: #A9D6FF;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.btn-remove:hover {
+    box-shadow: 2px 2px 3px #A8CEF1;
+}
+.btn-remove:active {
+    background-color: #5DADE2;
+}
